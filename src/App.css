@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.sidebar{
+  background: rgb(0, 7, 61);
+  color: white;
+  height: 100vh;
+}
+
+.top_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+.logo{
+  font-size: 18px;
+  line-height: 0;
+}
+.search{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  height: 30px;
+  padding: 10px;
+}
+.search input{
+  border: none;
+  width: 160px;
+  margin-left: 10px;
+  border-radius: 7px;
+  background: rgb(238, 238, 238);
+  padding: 5px 10px;
+}
+.link{
+  display: flex;
+  gap: 10px;
+  color: #fff ;
+  padding: 5px 10px;
+}
+.link:hover{
+  border-right: 4px solid white;
+}
